@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Top area */
+
+.top-area{
+    display: flex;
+    height: 36px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jordan-logo{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+}
+
+.nav-top a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin-right:  ; */
+}
+
+.nav-top{
+    display: flex;
+    /* margin-right: 30px; */
+}
+
+
+.nav-container1{
+    margin-right: 60px;
+}
+
+.nav-top a:hover{
+    color: #807d7d;
+}
+
+@media screen and (max-width:960px) {
+    .top-area{
+        display: none;
+    }
+}
+
+/* navbar */
+.header-container{
+    height: 55px;
+    width: 100%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nike-logo{
+    margin-left: 30px;
+    height: 70px;
+}
+
+.nav-container2{
+    margin-left: 280px;
+}
+
+.nav-bar a{
+     text-decoration: none;
+     color: black;
+     font-family: "Roboto", sans-serif;
+     font-size: 18px;
+     font-weight: 400;
+     margin-right: 20px;
+     padding-bottom: 5px;
+}
+
+.nav-bar a:hover{
+    border-bottom: 2px solid black;
+}
+
+.search-bar-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    min-width: 150px;
+    width: 10%;
+   
+}
+
+.search-icon{
+    height: 33px;
+    width: 33px;
+    background-color: #F5F5F5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    /* color: black; */
+    border: none;
+}
+
+.search-icon:hover{
+    background-color: #cfcdcd;
+}
+
+.search-logo{
+ color: black;
+}
+
+.search-bar{
+    height: 33px;
+    width: 160px;
+    background-color: #F5F5F5;
+    border: none;
+    border-radius: 20px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1;
+}
+
+.search-bar:hover{
+    background-color:  #eae8e8;
+}
+
+@media screen and (max-width: 1200px) {
+    .search-bar-container{
+        display: none;
+    }
+}
+
+.action-bar{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    box-sizing: content-box;
+}
+
+.heart{
+  cursor: pointer;
+  height: 33px;
+  width: 33px;
+  background-color: #ffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop{
+    cursor: pointer;
+    margin-left: 5px;
+    height: 33px;
+    width: 33px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart:hover{
+  background-color: #cfcdcd;
+}
+
+.shop:hover{
+    background-color: #cfcdcd;
+}
+
+/* Main area of the web application */
+.sale-top{
+    height: 80px;
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
