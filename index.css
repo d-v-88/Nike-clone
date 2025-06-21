@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Edu+QLD+Hand:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +23,7 @@
     width: 20px;
     height: 20px;
     margin-left: 50px;
+    cursor: pointer;
 }
 
 .nav-top a{
@@ -67,6 +70,7 @@
 .nike-logo{
     margin-left: 30px;
     height: 70px;
+    cursor: pointer;
 }
 
 .nav-container2{
@@ -135,16 +139,144 @@
     background-color:  #eae8e8;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
     .search-bar-container{
         display: none;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .nav-container2{
+        display: none;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .nav-bar a{
+        display: none;
+    }
+}
+
+ @media screen and (min-width:1280px) {
+    .magni .ma-icon{
+        display: none;
+    }
+    .magni{
+        display: none;
+    }
+ }
+
+ @media screen and (min-width: 960px) {
+    .human{
+        display: none;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+ }
+
+ @media screen and (max-width: 960px) {
+    .human{
+        height: 33px;
+        width: 33px;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+    }
+
+    .hamburger-menu{
+        height: 33px;
+        width: 33px;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+    .human:hover{
+        background-color: #cfcdcd;
+    }
+     .hamburger-menu:hover{
+        background-color: #cfcdcd;
+     }   
+
+}
+
+ @media screen and (max-width:1280px) {
+    .magni{
+        height: 33px;
+        width: 33px;
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin-right: 5px;
+    }
+    .magni:hover{
+        background-color: #cfcdcd;
+    }
+ }
+
+
+@media screen and (max-width: 1280px) {
+    .header-container{
+        all: unset;
+        height: 55px;
+        width: 100%;
+        background-color: #ffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nike-logo{
+       all: unset;
+       height: 70px;
+       margin-left: 30px;
+       cursor: pointer;
+       
+    }
+    .nav-container2{
+        all: unset;
+    }
+    .nav-bar{
+        all: unset;
+    }
+    .search-bar-container{
+       all: unset;
+       display: none;
+    }
+    .search-icon{
+        all: unset;
+    }
+    .search-logo{
+        all: unset;
+    }
+    .search-bar{
+        all: unset;
+    }
+    .action-bar{
+        all: unset;
+    }
+    .search{
+        all: unset;
+    }
+    .heart{
+        all: unset;
+    }
+    .shop{
+        all: unset;
     }
 }
 
 .action-bar{
     display: flex;
     align-items: center;
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .heart{
@@ -157,6 +289,16 @@
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 960px) {
+    .heart{
+        display: none;
+    }
+    .heart .material-symbols-outlined{
+        display: none;
+    }
+}
+
 
 .shop{
     cursor: pointer;
@@ -178,6 +320,7 @@
     background-color: #cfcdcd;
 }
 
+
 /* Main area of the web application */
 .sale-top{
     height: 80px;
@@ -198,4 +341,127 @@
     font-weight: 600;
     padding-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+/* banner image section style */
+.banner-container{
+   margin: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banner-image{
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width: 960px) {
+    .banner-container{
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    }
+    .banner-image{
+        all: unset;
+        width: 100%;
+        cursor: pointer;
+    }
+}
+
+/* main text on the home page of the web application */
+
+.main-heading-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.text1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.text2{
+   font-family: "Anton SC", sans-serif;
+   font-size: 5em;
+   max-height: 5em;
+   font-weight: 500;
+   cursor: pointer;
+   letter-spacing:  .08em;
+}
+
+@media screen and (max-width: 1045px) {
+    .text2{
+        all: unset;
+        font-family: "Anton SC", sans-serif;
+        cursor: pointer;
+        font-size: 3em;
+        font-weight: 500;
+        letter-spacing:  .04em;
+        max-height: 5em;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .text2{
+        all: unset;
+        font-family: "Anton SC", sans-serif;
+        cursor: pointer;
+        font-size: 1.8em;
+        font-weight: 500;
+        letter-spacing:  .04em;
+        max-height: 5em;
+    }
+    .text3{
+        all: unset;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+
+    }
+    .text4{
+        all: unset;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    }
+}
+
+.text3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.text4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.button1{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.button1:hover{
+    background-color: rgba(0, 0, 0, 0.455);
 }
