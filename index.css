@@ -65,6 +65,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* position: sticky; */
+    /* top: 0; */
 }
 
 .nike-logo{
@@ -383,6 +385,7 @@
     justify-content: center;
     flex-direction: column;
     margin-top: 40px;
+    margin-bottom: 80px;
 }
 .text1{
     font-family: Arial, Helvetica, sans-serif;
@@ -464,4 +467,60 @@
 }
 .button1:hover{
     background-color: rgba(0, 0, 0, 0.455);
+}
+
+/*  */
+
+.section1-heading{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.latest-inner-container{
+    display: flex;
+    flex-wrap: wrap; 
+    /* gap: 10px; */
+}
+
+.latest-image1{
+    flex: 1 1 45%; 
+  min-width: 300px; 
+  padding: 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.latest-image2{
+    flex: 1 1 45%; 
+  min-width: 300px;
+  padding: 15px; 
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.collection-section2{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+.feautred-image1{
+    flex: 1 1 45%; 
+    min-width: 200px;
+    padding: 15px; 
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.featured-container{
+    display: flex;
+    flex-wrap: wrap;
 }
