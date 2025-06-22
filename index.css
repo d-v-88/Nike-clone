@@ -34,12 +34,10 @@
     font-family: "Roboto", sans-serif;
     margin-left: 10px;
     margin-right: 10px;
-    /* margin-right:  ; */
 }
 
 .nav-top{
     display: flex;
-    /* margin-right: 30px; */
 }
 
 
@@ -57,7 +55,7 @@
     }
 }
 
-/* navbar */
+/* header area - which includes the logo, navlinks, search bar and action bar */
 .header-container{
     height: 55px;
     width: 100%;
@@ -65,8 +63,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* position: sticky; */
-    /* top: 0; */
 }
 
 .nike-logo{
@@ -113,7 +109,6 @@
     position: absolute;
     z-index: 2;
     cursor: pointer;
-    /* color: black; */
     border: none;
 }
 
@@ -168,6 +163,8 @@
     }
  }
 
+
+ /* Added human and hamburger image in mobile view and those images are hidden in desktop and tablet view.*/
  @media screen and (min-width: 960px) {
     .human{
         display: none;
@@ -469,8 +466,9 @@
     background-color: rgba(0, 0, 0, 0.455);
 }
 
-/*  */
+/* categories area start here all are mentioned here */
 
+/* section-1 */
 .section1-heading{
     font-size: 24px;
     font-weight: 600;
@@ -483,7 +481,6 @@
 .latest-inner-container{
     display: flex;
     flex-wrap: wrap; 
-    /* gap: 10px; */
 }
 
 .latest-image1{
@@ -506,6 +503,7 @@
 }
 
 
+/* section-2 */
 .section2-heading{
     font-size: 24px;
     font-weight: 600;
@@ -527,7 +525,6 @@
     max-width: 100%;
     height: auto;
     display: block;
-    /* border-radius: 8px; */
     cursor: pointer;
     object-fit: cover;
 }
@@ -592,6 +589,8 @@
     }
 }
 
+
+/* section-4 */
 .section4-heading{
     font-size: 24px;
     font-weight: 600;
@@ -620,6 +619,8 @@
   cursor: pointer;
 }
 
+
+/* section-5 */
 .section5-heading{
     font-size: 24px;
     font-weight: 600;
@@ -653,15 +654,16 @@
     margin: 0px 50px 0px 50px;
 }
 
+
+
+/* Here the footer area starts */
 .footer-container{
-    /* background-color: #F5F5F5; */
     padding-bottom: 100px;
 }
 
 
 .flex-column{
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
 }
 
@@ -687,15 +689,11 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    /* padding-bottom: 2px; */
     margin-bottom: 10px;
-    /* box-sizing: border-box; */
 }
 
 .footer a:hover{
     color: #322f2f;
-/* border-bottom: 2px solid black; */
-/* box-sizing: border-box; */
 }
 
 .india{
